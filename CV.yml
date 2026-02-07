@@ -1,0 +1,96 @@
+cv:
+  name: Adithya Hegde
+  email: adithyah07@gmail.com
+  social_networks:
+    - network: LinkedIn
+      username: adithya-hegde
+    - network: GitHub
+      username: TheMonocledHamster
+  sections:
+    summary:
+      - Systems and runtime behavior in large-scale computing, focusing on scheduling, resource management, and performance predictability under contention.
+    publications:
+      - title: COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning
+        authors:
+          - '**Adithya Hegde**'
+          - Sameer G. Kulkarni
+          - Abhinandan S. Prasad
+        doi: 10.1109/ccgrid57682.2023.00035
+        date: 2023-05
+        journal: "IEEE/ACM CCGRID 2023"
+    experience:
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer II
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Designed and implemented a unified Spark execution model replacing a Databricks-DynamoDB sync architecture, reducing operational failure modes and improving throughput up to 80% for large workloads without degrading small-workload performance.
+          - Introduced an input-aware short-circuit in the ingestion workflow, unnecessary Spark ingestion for empty inputs via a Lambda control path, cutting processing time from minutes to seconds and reducing compute usage by ~20%.
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer I
+        start_date: 2023-07
+        end_date: 2024-12
+        highlights:
+          - Profiled memory growth of a Polars-based transformation running in AWS Lambda’s constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60% and stabilizing execution latency.
+          - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
+          - Accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and performance debugging in production systems.
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer Intern
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
+    education:
+      - institution: The National Institute of Engineering
+        area: Computer Science and Engineering
+        degree: BE
+        start_date: 2019-08
+        end_date: 2023-06
+        highlights:
+          - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics
+    projects:
+      - name: '[POWER RTL-to-C Transpiler](https://arxiv.org/abs/2306.08701)'
+        date: 2023-06
+        highlights:
+          - Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
+    skills:
+      - label: Languages
+        details: Python, Java, SQL
+      - label: Systems & Data
+        details: Apache Spark, Databricks, Airflow
+design:
+  theme: engineeringresumes
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  month_names:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
