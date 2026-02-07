@@ -32,9 +32,9 @@ Jan 2025 – present
 
 ## **Software Engineer I**, JPMorgan Chase & Co.
 
-July 2023 – Dec 2024
+Jul 2023 – Dec 2024
 
-- Profiled memory growth of a Polars-based transformation running in AWS Lambda’s constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60% and stabilizing execution latency.
+- Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60% and stabilizing execution latency.
 
 - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -44,14 +44,14 @@ July 2023 – Dec 2024
 
 ## **Software Engineer Intern**, JPMorgan Chase & Co.
 
-Jan 2023 – June 2023
+Jan 2023 – Jun 2023
 
 - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
 
 
 
 # Education
-## **The National Institute of Engineering**, BE in Computer Science and EngineeringAug 2019 – June 2023
+## **The National Institute of Engineering**, BE in Computer Science and EngineeringAug 2019 – Jun 2023
 
 - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics
 
@@ -60,7 +60,7 @@ Jan 2023 – June 2023
 # Projects
 ## **[POWER RTL-to-C Transpiler](https://arxiv.org/abs/2306.08701)**
 
-June 2023
+Jun 2023
 
 - Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
 

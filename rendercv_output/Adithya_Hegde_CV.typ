@@ -13,7 +13,7 @@
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
   page-show-footer: false,
-  page-show-top-note: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -140,11 +140,11 @@ Systems and runtime behavior in large-scale computing, focusing on scheduling, r
 
   ],
   [
-    July 2023 – Dec 2024
+    Jul 2023 – Dec 2024
 
   ],
   main-column-second-row: [
-    - Profiled memory growth of a Polars-based transformation running in AWS Lambda’s constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60\% and stabilizing execution latency.
+    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60\% and stabilizing execution latency.
 
     - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -159,7 +159,7 @@ Systems and runtime behavior in large-scale computing, focusing on scheduling, r
 
   ],
   [
-    Jan 2023 – June 2023
+    Jan 2023 – Jun 2023
 
   ],
   main-column-second-row: [
@@ -176,7 +176,7 @@ Systems and runtime behavior in large-scale computing, focusing on scheduling, r
 
   ],
   [
-    Aug 2019 – June 2023
+    Aug 2019 – Jun 2023
 
   ],
   main-column-second-row: [
@@ -193,7 +193,7 @@ Systems and runtime behavior in large-scale computing, focusing on scheduling, r
 
   ],
   [
-    June 2023
+    Jun 2023
 
   ],
   main-column-second-row: [
