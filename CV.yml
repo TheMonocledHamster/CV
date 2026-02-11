@@ -31,7 +31,7 @@ cv:
         start_date: 2023-07
         end_date: 2024-12
         highlights:
-          - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60% and stabilizing execution latency.
+          - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60% and stabilizing execution latency.
           - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
           - Accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and performance debugging in production systems.
       - company: JPMorgan Chase & Co.
