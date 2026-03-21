@@ -46,7 +46,7 @@
         <li>GitHub: <a href="https://github.com/TheMonocledHamster">TheMonocledHamster</a></li>
         </ul>
         <h1>Summary</h1>
-        <p>Systems and runtime behavior in large-scale computing, focusing on scheduling, resource management, and performance predictability under contention.</p>
+        <p>Backend engineer focused on distributed data systems and execution engines, with experience in Spark-based workflows, query execution, and production debugging across Python and JVM runtimes. Strong background in analyzing execution behavior, resolving non-deterministic failures, and improving performance and reliability of large-scale data systems.</p>
         <h1>Publications</h1>
         <h2><strong>COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning</strong></h2>
         <p>May 2023</p>
@@ -57,17 +57,29 @@
         <p>Jan 2025 – present</p>
         <ul>
         <li>
-        <p>Designed and implemented a unified Spark execution model replacing a Databricks-DynamoDB sync architecture, reducing operational failure modes and improving throughput up to 80% for large workloads without degrading small-workload performance.</p>
+        <p>Redesigned a Spark execution workflow to eliminate external state synchronization (Databricks-DynamoDB), simplifying execution semantics and reducing failure modes while improving throughput by up to 80%.</p>
         </li>
         <li>
-        <p>Introduced an input-aware short-circuit in the ingestion workflow, unnecessary Spark ingestion for empty inputs via a Lambda control path, cutting processing time from minutes to seconds and reducing compute usage by ~20%.</p>
+        <p>Reduced Spark job runtime (~10 mins -&gt; 1.5 mins) by optimizing logical and physical execution plans and introducing data-dependent DAG construction to eliminate redundant stages.</p>
+        </li>
+        <li>
+        <p>Mitigated shuffle bottlenecks through partitioning strategy redesign and parallelism tuning, reducing cluster size from 10 XL to 3 2XL nodes without performance degradation.</p>
+        </li>
+        <li>
+        <p>Identified query performance bottlenecks via Spark execution plans and Databricks query profiles; optimized table partitioning to improve predicate pushdown and data skipping (65% -&gt; 98%), reducing query latency (~5 mins to ~10s).</p>
+        </li>
+        <li>
+        <p>Introduced an input-aware short-circuit in an ingestion workflow, rerouting zero-record files via a Lambda control path, cutting processing time from minutes to milliseconds and reducing overall compute usage by ~20%.</p>
+        </li>
+        <li>
+        <p>Debugged complex production issues at the Python-Spark JVM boundary in PySpark workloads, identifying and resolving undefined and non-deterministic behavior across execution layers.</p>
         </li>
         </ul>
         <h2><strong>Software Engineer I</strong>, JPMorgan Chase &amp; Co.</h2>
         <p>Jul 2023 – Dec 2024</p>
         <ul>
         <li>
-        <p>Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control to prevent peak allocation, reducing memory usage by 60% and stabilizing execution latency.</p>
+        <p>Analyzed memory behavior of a Polars-based transformation in constrained Lambda environments; introduced lazy evaluation and lifecycle control to eliminate peak allocations, reducing memory usage by 60% and stabilizing latency.</p>
         </li>
         <li>
         <p>Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.</p>
@@ -82,7 +94,8 @@
         <li>Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.</li>
         </ul>
         <h1>Education</h1>
-        <h2><strong>The National Institute of Engineering</strong>, BE in Computer Science and EngineeringAug 2019 – Jun 2023</h2>
+        <h2><strong>The National Institute of Engineering</strong>, BE in Computer Science and Engineering</h2>
+        <p>Aug 2019 – Jun 2023</p>
         <ul>
         <li>Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics</li>
         </ul>
@@ -93,8 +106,14 @@
         <li>Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.</li>
         </ul>
         <h1>Skills</h1>
-        <p><strong>Languages:</strong> Python, Java, SQL</p>
-        <p><strong>Systems &amp; Data:</strong> Apache Spark, Databricks, Airflow</p>
+        <p><strong>Languages:</strong> Python, Java, SQL, Scala (working proficiency)</p>
+        <p><strong>Distributed Systems &amp; Data:</strong> Apache Spark (execution, DAG, partitioning, shuffle optimization), Databricks, Airflow</p>
+        <p><strong>Infrastructure:</strong> Kubernetes (EKS), AWS Lambda,</p>
+        <p><strong>Core Areas:</strong> Distributed Execution, Query Planning, Data Layout Optimization, Memory Management, Performance Tuning</p>
+        <h1>Additional Experience</h1>
+        <h2><strong>DevOps Workshop</strong> -- <strong>Vidhyavardhaka College of Engineering, Mysuru</strong></h2>
+        <p>Sep 2023</p>
+        <p>Designed and delivered a 5-day hands-on workshop on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.</p>
     </article>
 </body>
 

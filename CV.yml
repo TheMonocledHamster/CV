@@ -8,7 +8,7 @@ cv:
       username: TheMonocledHamster
   sections:
     summary:
-      - Systems and runtime behavior in large-scale computing, focusing on scheduling, resource management, and performance predictability under contention.
+      - Backend engineer focused on distributed data systems and execution engines, with experience in Spark-based workflows, query execution, and production debugging across Python and JVM runtimes. Strong background in analyzing execution behavior, resolving non-deterministic failures, and improving performance and reliability of large-scale data systems.
     publications:
       - title: COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning
         authors:
@@ -24,8 +24,12 @@ cv:
         start_date: 2025-01
         end_date: present
         highlights:
-          - Designed and implemented a unified Spark execution model replacing a Databricks-DynamoDB sync architecture, reducing operational failure modes and improving throughput up to 80% for large workloads without degrading small-workload performance.
-          - Introduced an input-aware short-circuit in the ingestion workflow, unnecessary Spark ingestion for empty inputs via a Lambda control path, cutting processing time from minutes to seconds and reducing compute usage by ~20%.
+          - Redesigned a Spark execution workflow to eliminate external state synchronization (Databricks-DynamoDB), simplifying execution semantics and reducing failure modes while improving throughput by up to 80%.
+          - Reduced Spark job runtime (~10 mins -> 1.5 mins) by optimizing logical and physical execution plans and introducing data-dependent DAG construction to eliminate redundant stages.
+          - Mitigated shuffle bottlenecks through partitioning strategy redesign and parallelism tuning, reducing cluster size from 10 XL to 3 2XL nodes without performance degradation.
+          - Identified query performance bottlenecks via Spark execution plans and Databricks query profiles; optimized table partitioning to improve predicate pushdown and data skipping (65% -> 98%), reducing query latency (~5 mins to ~10s).
+          - Introduced an input-aware short-circuit in an ingestion workflow, rerouting zero-record files via a Lambda control path, cutting processing time from minutes to milliseconds and reducing overall compute usage by ~20%.
+          - Debugged complex production issues at the Python-Spark JVM boundary in PySpark workloads, identifying and resolving undefined and non-deterministic behavior across execution layers.
       - company: JPMorgan Chase & Co.
         position: Software Engineer I
         start_date: 2023-07
@@ -55,9 +59,18 @@ cv:
           - Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
     skills:
       - label: Languages
-        details: Python, Java, SQL
-      - label: Systems & Data
-        details: Apache Spark, Databricks, Airflow
+        details: Python, Java, SQL, Scala (working proficiency)
+      - label: Distributed Systems & Data
+        details: Apache Spark (execution, DAG, partitioning, shuffle optimization), Databricks, Airflow
+      - label: Infrastructure
+        details: Kubernetes (EKS), AWS Lambda, 
+      - label: Core Areas
+        details: Distributed Execution, Query Planning, Data Layout Optimization, Memory Management, Performance Tuning
+    Additional Experience:
+      - name: DevOps Workshop
+        date: 2023-09
+        location: Vidhyavardhaka College of Engineering, Mysuru
+        summary: Designed and delivered a 5-day hands-on workshop on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.
 design:
   theme: engineeringresumes
   page:
