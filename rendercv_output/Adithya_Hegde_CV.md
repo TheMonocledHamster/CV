@@ -16,7 +16,7 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
 
 May 2023
 
-Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
 
 **Adithya Hegde**, Sameer G. Kulkarni, Abhinandan S. Prasad
 
@@ -69,6 +69,8 @@ Aug 2019 – Jun 2023
 
 - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
 
+- Merit Scholarship (full tuition waiver for all semesters), awarded for top entrance rank.
+
 
 
 # Projects
@@ -87,11 +89,11 @@ Jun 2023
 
 **Core Areas:** Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
 
-# Additional Experience
+# Teaching Experience
 ## **DevOps Workshop** -- **Vidhyavardhaka College of Engineering, Mysuru**
 
 Sep 2023
 
-Designed and delivered a 5-day hands-on workshop on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.
+Designed and delivered a 5-day hands-on workshop for faculty on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.
 
 

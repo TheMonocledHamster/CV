@@ -20,7 +20,7 @@ cv:
         doi: 10.1109/ccgrid57682.2023.00035
         date: 2023-05
         journal: "**IEEE/ACM CCGRID 2023**"
-        summary: Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+        summary: Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
     experience:
       - company: JPMorgan Chase & Co.
         position: Software Engineer II
@@ -55,6 +55,7 @@ cv:
         end_date: 2023-06
         highlights:
           - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
+          - Merit Scholarship (full tuition waiver for all semesters), awarded for top entrance rank.
     projects:
       - name: '[POWER RTL-to-C Transpiler](https://arxiv.org/abs/2306.08701)'
         date: 2023-06
@@ -67,11 +68,11 @@ cv:
         details: Linux, Apache Spark, Databricks, Airflow, Kubernetes
       - label: Core Areas
         details: Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
-    Additional Experience:
+    Teaching Experience:
       - name: DevOps Workshop
         date: 2023-09
         location: Vidhyavardhaka College of Engineering, Mysuru
-        summary: Designed and delivered a 5-day hands-on workshop on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.
+        summary: Designed and delivered a 5-day hands-on workshop for faculty on DevOps and SRE practices, covering containerization, CI/CD, and deployment workflows for distributed systems.
 design:
   theme: engineeringresumes
   page:

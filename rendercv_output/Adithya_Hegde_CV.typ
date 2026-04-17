@@ -115,7 +115,7 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
 
   ],
   main-column-second-row: [
-    #summary[Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
+    #summary[Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
 
     #strong[Adithya Hegde], Sameer G. Kulkarni, Abhinandan S. Prasad
 
@@ -199,6 +199,8 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
   main-column-second-row: [
     - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
 
+    - Merit Scholarship (full tuition waiver for all semesters), awarded for top entrance rank.
+
   ],
 )
 
@@ -227,7 +229,7 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
 
 #strong[Core Areas:] Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
 
-== Additional Experience
+== Teaching Experience
 
 #regular-entry(
   [
@@ -239,7 +241,7 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
 
   ],
   main-column-second-row: [
-    #summary[Designed and delivered a 5-day hands-on workshop on DevOps and SRE practices, covering containerization, CI\/CD, and deployment workflows for distributed systems.]
+    #summary[Designed and delivered a 5-day hands-on workshop for faculty on DevOps and SRE practices, covering containerization, CI\/CD, and deployment workflows for distributed systems.]
 
   ],
 )
