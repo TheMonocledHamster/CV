@@ -6,7 +6,7 @@
   name: "Adithya Hegde",
   title: "Adithya Hegde - CV",
   footer: context { [#emph[Adithya Hegde -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in Apr 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 21,
+    month: 4,
+    day: 17,
   ),
 )
 
@@ -97,7 +97,11 @@
 
 == Summary
 
-Backend engineer focused on distributed data systems and execution engines, with experience in Spark-based workflows, query execution, and production debugging across Python and JVM runtimes. Strong background in analyzing execution behavior, resolving non-deterministic failures, and improving performance and reliability of large-scale data systems.
+Engineer and researcher focused on distributed systems, data infrastructure, and execution engines, with experience building and optimizing large-scale production systems. Strong background in performance analysis, reliability debugging, and systems design across Python and JVM runtimes.
+
+== Research Interests
+
+Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fault Tolerance, Systems for ML
 
 == Publications
 
@@ -111,9 +115,11 @@ Backend engineer focused on distributed data systems and execution engines, with
 
   ],
   main-column-second-row: [
+    #summary[Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
+
     #strong[Adithya Hegde], Sameer G. Kulkarni, Abhinandan S. Prasad
 
-    #link("https://doi.org/10.1109/ccgrid57682.2023.00035")[10.1109\/ccgrid57682.2023.00035] (IEEE\/ACM CCGRID 2023)
+    #link("https://doi.org/10.1109/ccgrid57682.2023.00035")[10.1109\/ccgrid57682.2023.00035] (#strong[IEEE\/ACM CCGRID 2023])
 
   ],
 )
@@ -155,7 +161,7 @@ Backend engineer focused on distributed data systems and execution engines, with
 
   ],
   main-column-second-row: [
-    - Analyzed memory behavior of a Polars-based transformation in constrained Lambda environments; introduced lazy evaluation and lifecycle control to eliminate peak allocations, reducing memory usage by 60\% and stabilizing latency.
+    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60\% and stabilizing execution latency.
 
     - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -191,7 +197,7 @@ Backend engineer focused on distributed data systems and execution engines, with
 
   ],
   main-column-second-row: [
-    - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics
+    - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
 
   ],
 )
@@ -208,20 +214,18 @@ Backend engineer focused on distributed data systems and execution engines, with
 
   ],
   main-column-second-row: [
-    - Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
+    - Built a transpiler translating ISA pseudocode into executable simulation models for gem5-based microarchitectural performance experiments.
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, Java, SQL, Scala (working proficiency)
+#strong[Languages:] Python, Java, SQL; Familiarity with Rust
 
-#strong[Distributed Systems & Data:] Apache Spark (execution, DAG, partitioning, shuffle optimization), Databricks, Airflow
+#strong[Systems:] Linux, Apache Spark, Databricks, Airflow, Kubernetes
 
-#strong[Infrastructure:] Kubernetes (EKS), AWS Lambda,
-
-#strong[Core Areas:] Distributed Execution, Query Planning, Data Layout Optimization, Memory Management, Performance Tuning
+#strong[Core Areas:] Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
 
 == Additional Experience
 

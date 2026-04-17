@@ -8,7 +8,9 @@ cv:
       username: TheMonocledHamster
   sections:
     summary:
-      - Backend engineer focused on distributed data systems and execution engines, with experience in Spark-based workflows, query execution, and production debugging across Python and JVM runtimes. Strong background in analyzing execution behavior, resolving non-deterministic failures, and improving performance and reliability of large-scale data systems.
+      - Engineer and researcher focused on distributed systems, data infrastructure, and execution engines, with experience building and optimizing large-scale production systems. Strong background in performance analysis, reliability debugging, and systems design across Python and JVM runtimes.
+    Research Interests:
+    - Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fault Tolerance, Systems for ML
     publications:
       - title: COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning
         authors:
@@ -17,7 +19,8 @@ cv:
           - Abhinandan S. Prasad
         doi: 10.1109/ccgrid57682.2023.00035
         date: 2023-05
-        journal: "IEEE/ACM CCGRID 2023"
+        journal: "**IEEE/ACM CCGRID 2023**"
+        summary: Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
     experience:
       - company: JPMorgan Chase & Co.
         position: Software Engineer II
@@ -51,21 +54,19 @@ cv:
         start_date: 2019-08
         end_date: 2023-06
         highlights:
-          - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics
+          - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
     projects:
       - name: '[POWER RTL-to-C Transpiler](https://arxiv.org/abs/2306.08701)'
         date: 2023-06
         highlights:
-          - Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
+          - Built a transpiler translating ISA pseudocode into executable simulation models for gem5-based microarchitectural performance experiments.
     skills:
       - label: Languages
-        details: Python, Java, SQL, Scala (working proficiency)
-      - label: Distributed Systems & Data
-        details: Apache Spark (execution, DAG, partitioning, shuffle optimization), Databricks, Airflow
-      - label: Infrastructure
-        details: Kubernetes (EKS), AWS Lambda, 
+        details: Python, Java, SQL; Familiarity with Rust
+      - label: Systems
+        details: Linux, Apache Spark, Databricks, Airflow, Kubernetes
       - label: Core Areas
-        details: Distributed Execution, Query Planning, Data Layout Optimization, Memory Management, Performance Tuning
+        details: Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
     Additional Experience:
       - name: DevOps Workshop
         date: 2023-09

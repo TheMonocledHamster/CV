@@ -6,16 +6,21 @@
 
 
 # Summary
-Backend engineer focused on distributed data systems and execution engines, with experience in Spark-based workflows, query execution, and production debugging across Python and JVM runtimes. Strong background in analyzing execution behavior, resolving non-deterministic failures, and improving performance and reliability of large-scale data systems.
+Engineer and researcher focused on distributed systems, data infrastructure, and execution engines, with experience building and optimizing large-scale production systems. Strong background in performance analysis, reliability debugging, and systems design across Python and JVM runtimes.
+
+# Research Interests
+Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fault Tolerance, Systems for ML
 
 # Publications
 ## **COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning**
 
 May 2023
 
+Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on Github [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+
 **Adithya Hegde**, Sameer G. Kulkarni, Abhinandan S. Prasad
 
-[10.1109/ccgrid57682.2023.00035](https://doi.org/10.1109/ccgrid57682.2023.00035) (IEEE/ACM CCGRID 2023)
+[10.1109/ccgrid57682.2023.00035](https://doi.org/10.1109/ccgrid57682.2023.00035) (**IEEE/ACM CCGRID 2023**)
 
 
 
@@ -42,7 +47,7 @@ Jan 2025 – present
 
 Jul 2023 – Dec 2024
 
-- Analyzed memory behavior of a Polars-based transformation in constrained Lambda environments; introduced lazy evaluation and lifecycle control to eliminate peak allocations, reducing memory usage by 60% and stabilizing latency.
+- Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60% and stabilizing execution latency.
 
 - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -62,7 +67,7 @@ Jan 2023 – Jun 2023
 ## **The National Institute of Engineering**, BE in Computer Science and Engineering
 Aug 2019 – Jun 2023
 
-- Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Computer Architecture, Cloud Computing, Discrete Mathematics
+- Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
 
 
 
@@ -71,18 +76,16 @@ Aug 2019 – Jun 2023
 
 Jun 2023
 
-- Transpiler which translates ISA pseudocode to executable simulation models enabling microarchitectural performance experiments in gem5.
+- Built a transpiler translating ISA pseudocode into executable simulation models for gem5-based microarchitectural performance experiments.
 
 
 
 # Skills
-**Languages:** Python, Java, SQL, Scala (working proficiency)
+**Languages:** Python, Java, SQL; Familiarity with Rust
 
-**Distributed Systems & Data:** Apache Spark (execution, DAG, partitioning, shuffle optimization), Databricks, Airflow
+**Systems:** Linux, Apache Spark, Databricks, Airflow, Kubernetes
 
-**Infrastructure:** Kubernetes (EKS), AWS Lambda,
-
-**Core Areas:** Distributed Execution, Query Planning, Data Layout Optimization, Memory Management, Performance Tuning
+**Core Areas:** Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
 
 # Additional Experience
 ## **DevOps Workshop** -- **Vidhyavardhaka College of Engineering, Mysuru**
