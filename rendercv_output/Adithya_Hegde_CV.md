@@ -56,7 +56,7 @@ Jan 2023 – Jun 2023
 
 
 # Publications
-## **COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning**
+## **COUNSEL - Cloud Resource Configuration Management using Deep RL**
 
 May 2023
 

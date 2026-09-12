@@ -188,7 +188,7 @@
 
 #regular-entry(
   [
-    #strong[COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning]
+    #strong[COUNSEL - Cloud Resource Configuration Management using Deep RL]
 
   ],
   [

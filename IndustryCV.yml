@@ -44,7 +44,7 @@ cv:
         highlights:
           - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
     publications:
-      - title: COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning
+      - title: COUNSEL - Cloud Resource Configuration Management using Deep RL
         authors:
           - '**Adithya Hegde**'
           - Sameer G. Kulkarni
