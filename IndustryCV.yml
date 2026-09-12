@@ -2,6 +2,7 @@ cv:
   name: Adithya Hegde
   email: adithyah07@gmail.com
   website: https://sites.gatech.edu/ahegde
+  phone: +1 (470) 836-3474
   social_networks:
     - network: LinkedIn
       username: adithya-hegde
@@ -12,13 +13,11 @@ cv:
       - institution: Georgia Institute of Technology
         area: Computer Science - Computing Systems
         degree: MS
-        start_date: 2026-08
-        end_date: present
+        date: Expected May 2028
       - institution: The National Institute of Engineering
         area: Computer Science and Engineering
         degree: BE
-        start_date: 2019-08
-        end_date: 2023-06
+        date: Jun 2023
     experience:
       - company: JPMorgan Chase & Co.
         position: Software Engineer II

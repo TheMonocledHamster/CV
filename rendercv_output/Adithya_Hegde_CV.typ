@@ -91,6 +91,7 @@
 #connections(
   [#link("mailto:adithyah07@gmail.com", icon: false, if-underline: false, if-color: false)[adithyah07\@gmail.com]],
   [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
+  [#link("tel:+1-470-836-3474", icon: false, if-underline: false, if-color: false)[(470) 836-3474]],
   [#link("https://linkedin.com/in/adithya-hegde", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/adithya-hegde]],
   [#link("https://github.com/TheMonocledHamster", icon: false, if-underline: false, if-color: false)[github.com\/TheMonocledHamster]],
 )
@@ -104,7 +105,7 @@
 
   ],
   [
-    Aug 2026 – present
+    Expected May 2028
 
   ],
   main-column-second-row: [
@@ -117,7 +118,7 @@
 
   ],
   [
-    Aug 2019 – Jun 2023
+    Jun 2023
 
   ],
   main-column-second-row: [

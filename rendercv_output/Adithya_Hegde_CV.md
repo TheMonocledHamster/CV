@@ -1,5 +1,6 @@
 # Adithya Hegde's CV
 
+- Phone: +1 470 836 3474
 - Email: [adithyah07@gmail.com](mailto:adithyah07@gmail.com)
 - Website: [sites.gatech.eduahegde](https://sites.gatech.edu/ahegde)
 - LinkedIn: [adithya-hegde](https://linkedin.com/in/adithya-hegde)
@@ -8,12 +9,12 @@
 
 # Education
 ## **Georgia Institute of Technology**, MS in Computer Science - Computing Systems
-Aug 2026 – present
+Expected May 2028
 
 
 
 ## **The National Institute of Engineering**, BE in Computer Science and Engineering
-Aug 2019 – Jun 2023
+Jun 2023
 
 
 
