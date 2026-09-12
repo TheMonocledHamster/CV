@@ -6,7 +6,7 @@
   name: "Adithya Hegde",
   title: "Adithya Hegde - CV",
   footer: context { [#emph[Adithya Hegde -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in Sep 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 17,
+    month: 9,
+    day: 11,
   ),
 )
 
@@ -90,18 +90,98 @@
 
 #connections(
   [#link("mailto:adithyah07@gmail.com", icon: false, if-underline: false, if-color: false)[adithyah07\@gmail.com]],
+  [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
   [#link("https://linkedin.com/in/adithya-hegde", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/adithya-hegde]],
   [#link("https://github.com/TheMonocledHamster", icon: false, if-underline: false, if-color: false)[github.com\/TheMonocledHamster]],
 )
 
 
-== Summary
+== Education
 
-Engineer and researcher focused on distributed systems, data infrastructure, and execution engines, with experience building and optimizing large-scale production systems. Strong background in performance analysis, reliability debugging, and systems design across Python and JVM runtimes.
+#education-entry(
+  [
+    #strong[Georgia Institute of Technology], MS in Computer Science - Computing Systems
 
-== Research Interests
+  ],
+  [
+    Aug 2026 – present
 
-Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fault Tolerance, Systems for ML
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[The National Institute of Engineering], BE in Computer Science and Engineering
+
+  ],
+  [
+    Aug 2019 – Jun 2023
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+== Experience
+
+#regular-entry(
+  [
+    #strong[Software Engineer II], JPMorgan Chase & Co.
+
+  ],
+  [
+    Jan 2025 – Jul 2026
+
+  ],
+  main-column-second-row: [
+    - Owned the technical design and implementation of a new Spark-based data platform replacing legacy processing systems, from architecture through production rollout.
+
+    - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80\%.
+
+    - Reduced runtime of a complex \~60-operation Spark DAG processing 1-10M records from \~10 minutes to \~1.5 minutes through logical-plan optimization and data-dependent DAG construction that eliminated redundant execution stages.
+
+    - Redesigned partitioning and parallelism to mitigate shuffle bottlenecks, reducing cluster compute costs by \~40\% without performance degradation.
+
+    - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65\% to 98\% and reducing dashboard refresh latency from \~5 minutes to \~10 seconds.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Software Engineer I], JPMorgan Chase & Co.
+
+  ],
+  [
+    Jul 2023 – Dec 2024
+
+  ],
+  main-column-second-row: [
+    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60\% and stabilizing execution latency.
+
+    - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
+
+    - Earned accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and production performance engineering.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Software Engineer Intern], JPMorgan Chase & Co.
+
+  ],
+  [
+    Jan 2023 – Jun 2023
+
+  ],
+  main-column-second-row: [
+    - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95\%.
+
+  ],
+)
 
 == Publications
 
@@ -124,124 +204,8 @@ Distributed Systems, Cloud Infrastructure, Data Systems, Resource Management, Fa
   ],
 )
 
-== Experience
-
-#regular-entry(
-  [
-    #strong[Software Engineer II], JPMorgan Chase & Co.
-
-  ],
-  [
-    Jan 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Redesigned a Spark execution workflow to eliminate external state synchronization (Databricks-DynamoDB), simplifying execution semantics and reducing failure modes while improving throughput by up to 80\%.
-
-    - Reduced Spark job runtime (\~10 mins -\> 1.5 mins) by optimizing logical and physical execution plans and introducing data-dependent DAG construction to eliminate redundant stages.
-
-    - Mitigated shuffle bottlenecks through partitioning strategy redesign and parallelism tuning, reducing cluster size from 10 XL to 3 2XL nodes without performance degradation.
-
-    - Identified query performance bottlenecks via Spark execution plans and Databricks query profiles; optimized table partitioning to improve predicate pushdown and data skipping (65\% -\> 98\%), reducing query latency (\~5 mins to \~10s).
-
-    - Introduced an input-aware short-circuit in an ingestion workflow, rerouting zero-record files via a Lambda control path, cutting processing time from minutes to milliseconds and reducing overall compute usage by \~20\%.
-
-    - Debugged complex production issues at the Python-Spark JVM boundary in PySpark workloads, identifying and resolving undefined and non-deterministic behavior across execution layers.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Software Engineer I], JPMorgan Chase & Co.
-
-  ],
-  [
-    Jul 2023 – Dec 2024
-
-  ],
-  main-column-second-row: [
-    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60\% and stabilizing execution latency.
-
-    - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
-
-    - Accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and performance debugging in production systems.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Software Engineer Intern], JPMorgan Chase & Co.
-
-  ],
-  [
-    Jan 2023 – Jun 2023
-
-  ],
-  main-column-second-row: [
-    - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95\%.
-
-  ],
-)
-
-== Education
-
-#education-entry(
-  [
-    #strong[The National Institute of Engineering], BE in Computer Science and Engineering
-
-  ],
-  [
-    Aug 2019 – Jun 2023
-
-  ],
-  main-column-second-row: [
-    - Operating Systems, Analysis and Design of Algorithms, Data Structures, Database Systems, Cloud Computing, Discrete Mathematics, Computer Architecture
-
-    - Merit Scholarship (full tuition waiver for all semesters), awarded for top entrance rank.
-
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://arxiv.org/abs/2306.08701")[POWER RTL-to-C Transpiler]]
-
-  ],
-  [
-    Jun 2023
-
-  ],
-  main-column-second-row: [
-    - Built a transpiler translating ISA pseudocode into executable simulation models for gem5-based microarchitectural performance experiments.
-
-  ],
-)
-
 == Skills
 
-#strong[Languages:] Python, Java, SQL; Familiarity with Rust
+#strong[Languages:] Python, Java, SQL; Familiarity with Rust, C++
 
-#strong[Systems:] Linux, Apache Spark, Databricks, Airflow, Kubernetes
-
-#strong[Core Areas:] Distributed Execution, Query Optimization, Fault Diagnosis, Performance Tuning, Data Infrastructure
-
-== Teaching Experience
-
-#regular-entry(
-  [
-    #strong[DevOps Workshop] -- #strong[Vidhyavardhaka College of Engineering, Mysuru]
-
-  ],
-  [
-    Sep 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Designed and delivered a 5-day hands-on workshop for faculty on DevOps and SRE practices, covering containerization, CI\/CD, and deployment workflows for distributed systems.]
-
-  ],
-)
+#strong[Systems & Data:] Spark, Databricks, Airflow, Kubernetes, AWS, Linux

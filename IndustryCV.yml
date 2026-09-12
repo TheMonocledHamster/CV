@@ -1,0 +1,99 @@
+cv:
+  name: Adithya Hegde
+  email: adithyah07@gmail.com
+  website: https://sites.gatech.edu/ahegde
+  social_networks:
+    - network: LinkedIn
+      username: adithya-hegde
+    - network: GitHub
+      username: TheMonocledHamster
+  sections:
+    education:
+      - institution: Georgia Institute of Technology
+        area: Computer Science - Computing Systems
+        degree: MS
+        start_date: 2026-08
+        end_date: present
+      - institution: The National Institute of Engineering
+        area: Computer Science and Engineering
+        degree: BE
+        start_date: 2019-08
+        end_date: 2023-06
+    experience:
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer II
+        start_date: 2025-01
+        end_date: 2026-07
+        highlights:
+          - Owned the technical design and implementation of a new Spark-based data platform replacing legacy processing systems, from architecture through production rollout.
+          - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
+          - Reduced runtime of a complex ~60-operation Spark DAG processing 1-10M records from ~10 minutes to ~1.5 minutes through logical-plan optimization and data-dependent DAG construction that eliminated redundant execution stages.
+          - Redesigned partitioning and parallelism to mitigate shuffle bottlenecks, reducing cluster compute costs by ~40% without performance degradation.
+          - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65% to 98% and reducing dashboard refresh latency from ~5 minutes to ~10 seconds.
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer I
+        start_date: 2023-07
+        end_date: 2024-12
+        highlights:
+          - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60% and stabilizing execution latency.
+          - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
+          - Earned accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and production performance engineering.
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer Intern
+        start_date: 2023-01
+        end_date: 2023-06
+        highlights:
+          - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
+    publications:
+      - title: COUNSEL - Cloud Resource Configuration Management using Deep Reinforcement Learning
+        authors:
+          - '**Adithya Hegde**'
+          - Sameer G. Kulkarni
+          - Abhinandan S. Prasad
+        doi: 10.1109/ccgrid57682.2023.00035
+        date: 2023-05
+        journal: "**IEEE/ACM CCGRID 2023**"
+        summary: Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+    skills:
+      - label: Languages
+        details: Python, Java, SQL; Familiarity with Rust, C++
+      - label: Systems & Data
+        details: Spark, Databricks, Airflow, Kubernetes, AWS, Linux
+design:
+  theme: engineeringresumes
+  page:
+    show_top_note: false
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  month_names:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
