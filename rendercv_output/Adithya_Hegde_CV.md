@@ -23,7 +23,7 @@ Jun 2023
 
 Jan 2025 – Jul 2026
 
-- Owned the technical design and implementation of a new Spark-based data platform replacing legacy processing systems, from architecture through production rollout.
+- Owned the technical design and implementation of a new Spark-based (Pyspark & Java) data platform replacing legacy processing systems, from architecture through production rollout.
 
 - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
 
