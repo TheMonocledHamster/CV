@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 11,
+    day: 22,
   ),
 )
 
@@ -196,7 +196,7 @@
 
   ],
   main-column-second-row: [
-    #summary[Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
+    #summary[Proposed a PyTorch-based Deep Reinforcement Learning framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
 
     #strong[Adithya Hegde], Sameer G. Kulkarni, Abhinandan S. Prasad
 
@@ -209,4 +209,4 @@
 
 #strong[Languages:] Python, Java, SQL; Familiarity with Rust, C++
 
-#strong[Systems & Data:] Spark, Databricks, Airflow, Kubernetes, AWS, Linux
+#strong[Systems & Data:] Spark, Databricks, Airflow, PyTorch, Kubernetes, AWS, Linux

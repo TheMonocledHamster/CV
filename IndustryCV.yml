@@ -24,7 +24,7 @@ cv:
         start_date: 2025-01
         end_date: 2026-07
         highlights:
-          - Owned the technical design and implementation of a new Spark-based data platform replacing legacy processing systems, from architecture through production rollout.
+          - Owned the technical design and implementation of a new Spark-based (Pyspark & Java) data platform replacing legacy processing systems, from architecture through production rollout.
           - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
           - Reduced runtime of a complex ~60-operation Spark DAG processing 1-10M records from ~10 minutes to ~1.5 minutes through logical-plan optimization and data-dependent DAG construction that eliminated redundant execution stages.
           - Redesigned partitioning and parallelism to mitigate shuffle bottlenecks, reducing cluster compute costs by ~40% without performance degradation.
@@ -52,12 +52,12 @@ cv:
         doi: 10.1109/ccgrid57682.2023.00035
         date: 2023-05
         journal: "**IEEE/ACM CCGRID 2023**"
-        summary: Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+        summary: Proposed a PyTorch-based Deep Reinforcement Learning framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
     skills:
       - label: Languages
         details: Python, Java, SQL; Familiarity with Rust, C++
       - label: Systems & Data
-        details: Spark, Databricks, Airflow, Kubernetes, AWS, Linux
+        details: Spark, Databricks, Airflow, PyTorch, Kubernetes, AWS, Linux
 design:
   theme: engineeringresumes
   page:

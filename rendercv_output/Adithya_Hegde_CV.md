@@ -60,7 +60,7 @@ Jan 2023 – Jun 2023
 
 May 2023
 
-Proposed a DRL-based framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
+Proposed a PyTorch-based Deep Reinforcement Learning framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub [(Counsel)](https://github.com/TheMonocledHamster/Counsel).
 
 **Adithya Hegde**, Sameer G. Kulkarni, Abhinandan S. Prasad
 
@@ -71,4 +71,4 @@ Proposed a DRL-based framework for cloud resource configuration using queueing-b
 # Skills
 **Languages:** Python, Java, SQL; Familiarity with Rust, C++
 
-**Systems & Data:** Spark, Databricks, Airflow, Kubernetes, AWS, Linux
+**Systems & Data:** Spark, Databricks, Airflow, PyTorch, Kubernetes, AWS, Linux
