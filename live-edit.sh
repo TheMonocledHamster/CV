@@ -1,0 +1,1 @@
+rendercv render --watch IndustryCV.yml  --dont-generate-html --dont-generate-png

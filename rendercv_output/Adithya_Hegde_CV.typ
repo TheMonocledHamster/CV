@@ -6,7 +6,7 @@
   name: "Adithya Hegde",
   title: "Adithya Hegde - CV",
   footer: context { [#emph[Adithya Hegde -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Sep 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 9,
-    day: 22,
+    month: 10,
+    day: 14,
   ),
 )
 
@@ -137,13 +137,13 @@
 
   ],
   main-column-second-row: [
-    - Owned the technical design and implementation of a new Spark-based (Pyspark & Java) data platform replacing legacy processing systems, from architecture through production rollout.
+    - Designed and delivered a new distributed data processing platform using PySpark and Java, replacing legacy systems with full ownership of architecture, implementation, and production rollout.
 
     - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80\%.
 
-    - Reduced runtime of a complex \~60-operation Spark DAG processing 1-10M records from \~10 minutes to \~1.5 minutes through logical-plan optimization and data-dependent DAG construction that eliminated redundant execution stages.
+    - Reduced runtime of a \~60-operation Spark DAG processing up to 10M records from \~10 minutes to \~1.5 minutes (85\%) through logical-plan optimization and data-dependent DAG construction.
 
-    - Redesigned partitioning and parallelism to mitigate shuffle bottlenecks, reducing cluster compute costs by \~40\% without performance degradation.
+    - Tuned Spark workload partitioning and task parallelism to reduce shuffle overhead, cutting cluster compute costs by \~40\% while maintaining execution performance.
 
     - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65\% to 98\% and reducing dashboard refresh latency from \~5 minutes to \~10 seconds.
 
@@ -164,22 +164,26 @@
 
     - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
-    - Earned accelerated promotion to Software Engineer II for ownership of distributed data infrastructure and production performance engineering.
+    - Accelerated promotion to Software Engineer II
 
   ],
 )
 
+== Projects
+
 #regular-entry(
   [
-    #strong[Software Engineer Intern], JPMorgan Chase & Co.
+    #strong[#link("https://doi.org/10.1145/3725294")[XDBC: Cross-DBMS Data Transfer] | #link("https://github.com/TheMonocledHamster/xdbc-replication")[GitHub] | Go, PostgreSQL]
 
   ],
   [
-    Jan 2023 – Jun 2023
+    Fall 2026
 
   ],
   main-column-second-row: [
-    - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95\%.
+    - Co-developing an end-to-end XDBC data transfer system in Go, including client\/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
+
+    - Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
 
   ],
 )
@@ -196,17 +200,19 @@
 
   ],
   main-column-second-row: [
-    #summary[Proposed a PyTorch-based Deep Reinforcement Learning framework for cloud resource configuration using queueing-based service-chain modeling, and evaluated system performance under simulated workloads. Artifacts available on GitHub #link("https://github.com/TheMonocledHamster/Counsel")[(Counsel)].]
+    #summary[Proposed a #link("https://github.com/TheMonocledHamster/Counsel")[Deep RL framework] for cloud resource configuration using queueing-based service-chain modeling.]
 
     #strong[Adithya Hegde], Sameer G. Kulkarni, Abhinandan S. Prasad
 
-    #link("https://doi.org/10.1109/ccgrid57682.2023.00035")[10.1109\/ccgrid57682.2023.00035] (#strong[IEEE\/ACM CCGRID 2023])
+    #link("https://doi.org/10.1109/ccgrid57682.2023.00035")[10.1109\/ccgrid57682.2023.00035] (#strong[CCGRID 2023])
 
   ],
 )
 
 == Skills
 
-#strong[Languages:] Python, Java, SQL; Familiarity with Rust, C++
+#strong[Languages:] Python, Java, Go, SQL; Familiarity with CPP, Rust
 
-#strong[Systems & Data:] Spark, Databricks, Airflow, PyTorch, Kubernetes, AWS, Linux
+#strong[Data Systems:] Apache Spark, Databricks, PostgreSQL, Airflow, Pytorch
+
+#strong[Infrastructure:] Kubernetes, AWS, Linux
