@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 14,
+    day: 20,
   ),
 )
 
@@ -90,18 +90,50 @@
 
 #connections(
   [#link("mailto:adithyah07@gmail.com", icon: false, if-underline: false, if-color: false)[adithyah07\@gmail.com]],
-  [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
   [#link("tel:+1-470-836-3474", icon: false, if-underline: false, if-color: false)[(470) 836-3474]],
+  [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
   [#link("https://linkedin.com/in/adithya-hegde", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/adithya-hegde]],
   [#link("https://github.com/TheMonocledHamster", icon: false, if-underline: false, if-color: false)[github.com\/TheMonocledHamster]],
 )
 
 
+== Teaching Experience
+
+#regular-entry(
+  [
+    #strong[Graduate Teaching Assistant -- OMSCS CS 6200 (GIOS)], Georgia Institute of Technology
+
+  ],
+  [
+    Aug 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Serving as a GTA for a graduate operating systems course; experience supporting students in an online MS program.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Workshop Instructor -- DevOps], Vidhyavardhaka College of Engineering, India
+
+  ],
+  [
+    Sept 2023
+
+  ],
+  main-column-second-row: [
+    - Led a DevOps-focused workshop for faculty, explaining software engineering practices and technical concepts to an educator audience.
+
+  ],
+)
+
 == Education
 
 #education-entry(
   [
-    #strong[Georgia Institute of Technology], MS in Computer Science - Computing Systems
+    #strong[Georgia Institute of Technology], MS in Computer Science -- Computing Systems
 
   ],
   [
@@ -109,6 +141,8 @@
 
   ],
   main-column-second-row: [
+    - Relevant Fall 2026 coursework: CS 6400 (Grad Intro to Database Systems) and CS 6222 (Systems for ML).
+
   ],
 )
 
@@ -125,7 +159,7 @@
   ],
 )
 
-== Experience
+== Professional Experience
 
 #regular-entry(
   [
@@ -133,19 +167,15 @@
 
   ],
   [
-    Jan 2025 – Jul 2026
+    Jan 2025 – July 2026
 
   ],
   main-column-second-row: [
-    - Designed and delivered a new distributed data processing platform using PySpark and Java, replacing legacy systems with full ownership of architecture, implementation, and production rollout.
+    - Designed and delivered a distributed PySpark\/Java data-processing platform, leading architecture, implementation, and production rollout.
 
-    - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80\%.
+    - Built and launched a distributed PySpark\/Java processing platform; removed Databricks-DynamoDB state synchronization, improving throughput by up to 80\%.
 
-    - Reduced runtime of a \~60-operation Spark DAG processing up to 10M records from \~10 minutes to \~1.5 minutes (85\%) through logical-plan optimization and data-dependent DAG construction.
-
-    - Tuned Spark workload partitioning and task parallelism to reduce shuffle overhead, cutting cluster compute costs by \~40\% while maintaining execution performance.
-
-    - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65\% to 98\% and reducing dashboard refresh latency from \~5 minutes to \~10 seconds.
+    - Optimized Spark execution (up to 10M records) to reduce runtime by 85\%; improved Databricks data skipping from 65\% to 98\% and cut cluster compute costs by \~40\%.
 
   ],
 )
@@ -156,15 +186,11 @@
 
   ],
   [
-    Jul 2023 – Dec 2024
+    July 2023 – Dec 2024
 
   ],
   main-column-second-row: [
-    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60\% and stabilizing execution latency.
-
-    - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
-
-    - Accelerated promotion to Software Engineer II
+    - Built Airflow-orchestrated pipelines using Kubernetes (EKS) and NiFi; reduced Polars\/AWS Lambda peak memory usage by 60\% through lazy evaluation.
 
   ],
 )
@@ -173,7 +199,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://doi.org/10.1145/3725294")[XDBC: Cross-DBMS Data Transfer] | #link("https://github.com/TheMonocledHamster/xdbc-replication")[GitHub] | Go, PostgreSQL]
+    #strong[XDBC: Cross-DBMS Data Transfer | Go, PostgreSQL]
 
   ],
   [
@@ -181,9 +207,7 @@
 
   ],
   main-column-second-row: [
-    - Co-developing an end-to-end XDBC data transfer system in Go, including client\/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
-
-    - Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
+    - Co-developing a Go client\/server data-transfer system with wire protocol, serialization, buffer management, and PostgreSQL integration; reproducing transfer benchmarks against PostgreSQL FDW baselines.
 
   ],
 )
@@ -211,8 +235,8 @@
 
 == Skills
 
-#strong[Languages:] Python, Java, Go, SQL; Familiarity with CPP, Rust
+#strong[Programming:] Python, SQL, Java, Go; working familiarity with C++ and Rust
 
-#strong[Data Systems:] Apache Spark, Databricks, PostgreSQL, Airflow, Pytorch
+#strong[Databases & Data Systems:] PostgreSQL, Apache Spark, Databricks, Delta Lake, Airflow, Polars
 
-#strong[Infrastructure:] Kubernetes, AWS, Linux
+#strong[Systems:] Kubernetes, AWS, Linux

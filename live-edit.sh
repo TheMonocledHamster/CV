@@ -1,1 +1,1 @@
-rendercv render --watch IndustryCV.yml  --dont-generate-html --dont-generate-png
+rendercv render --watch $1  --dont-generate-html --dont-generate-png -o "${1%%.*}"

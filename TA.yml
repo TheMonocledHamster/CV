@@ -1,0 +1,77 @@
+cv:
+  name: Adithya Hegde
+  email: adithyah07@gmail.com
+  phone: +1 (470) 836-3474
+  website: https://sites.gatech.edu/ahegde
+  social_networks:
+    - network: LinkedIn
+      username: adithya-hegde
+    - network: GitHub
+      username: TheMonocledHamster
+  sections:
+    teaching_experience:
+      - company: Georgia Institute of Technology
+        position: Graduate Teaching Assistant -- OMSCS CS 6200 (GIOS)
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - Serving as a GTA for a graduate operating systems course; experience supporting students in an online MS program.
+      - company: Vidhyavardhaka College of Engineering, India
+        position: Workshop Instructor -- DevOps
+        date: 2023-09
+        highlights:
+          - Led a DevOps-focused workshop for faculty, explaining software engineering practices and technical concepts to an educator audience.
+    education:
+      - institution: Georgia Institute of Technology
+        area: Computer Science -- Computing Systems
+        degree: MS
+        date: Expected May 2028
+        highlights:
+          - "Relevant Fall 2026 coursework: CS 6400 (Grad Intro to Database Systems) and CS 6222 (Systems for ML)."
+      - institution: The National Institute of Engineering
+        area: Computer Science and Engineering
+        degree: BE
+        date: Jun 2023
+    professional_experience:
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer II
+        start_date: 2025-01
+        end_date: 2026-07
+        highlights:
+          - Designed and delivered a distributed PySpark/Java data-processing platform, leading architecture, implementation, and production rollout.
+          - Built and launched a distributed PySpark/Java processing platform; removed Databricks-DynamoDB state synchronization, improving throughput by up to 80%.
+          - Optimized Spark execution (up to 10M records) to reduce runtime by 85%; improved Databricks data skipping from 65% to 98% and cut cluster compute costs by ~40%.
+      - company: JPMorgan Chase & Co.
+        position: Software Engineer I
+        start_date: 2023-07
+        end_date: 2024-12
+        highlights:
+          - Built Airflow-orchestrated pipelines using Kubernetes (EKS) and NiFi; reduced Polars/AWS Lambda peak memory usage by 60% through lazy evaluation.
+    projects:
+      - name: "XDBC: Cross-DBMS Data Transfer | Go, PostgreSQL"
+        date: Fall 2026
+        highlights:
+          - Co-developing a Go client/server data-transfer system with wire protocol, serialization, buffer management,
+            and PostgreSQL integration; reproducing transfer benchmarks against PostgreSQL FDW baselines.
+        url: https://github.com/TheMonocledHamster/xdbc-replication
+    publications:
+      - title: COUNSEL - Cloud Resource Configuration Management using Deep RL
+        authors:
+          - "**Adithya Hegde**"
+          - Sameer G. Kulkarni
+          - Abhinandan S. Prasad
+        doi: 10.1109/ccgrid57682.2023.00035
+        date: 2023-05
+        journal: "**CCGRID 2023**"
+        summary: Proposed a [Deep RL framework](https://github.com/TheMonocledHamster/Counsel) for cloud resource configuration using queueing-based service-chain modeling.
+    skills:
+      - label: Programming
+        details: Python, SQL, Java, Go; working familiarity with C++ and Rust
+      - label: Databases & Data Systems
+        details: PostgreSQL, Apache Spark, Databricks, Delta Lake, Airflow, Polars
+      - label: Systems
+        details: Kubernetes, AWS, Linux
+design:
+  theme: engineeringresumes
+  page:
+    show_top_note: false

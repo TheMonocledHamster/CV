@@ -43,7 +43,6 @@ cv:
       #   end_date: 2023-06
       #   highlights:
       #     - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
-    
 
     projects:
       - name: "[XDBC: Cross-DBMS Data Transfer](https://doi.org/10.1145/3725294) | [GitHub](https://github.com/TheMonocledHamster/xdbc-replication) | Go, PostgreSQL"
@@ -52,11 +51,10 @@ cv:
           - Co-developing an end-to-end XDBC data transfer system in Go, including client/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
           - Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
 
-
     publications:
       - title: COUNSEL - Cloud Resource Configuration Management using Deep RL
         authors:
-          - '**Adithya Hegde**'
+          - "**Adithya Hegde**"
           - Sameer G. Kulkarni
           - Abhinandan S. Prasad
         doi: 10.1109/ccgrid57682.2023.00035
@@ -76,37 +74,3 @@ design:
   theme: engineeringresumes
   page:
     show_top_note: false
-locale:
-  language: english
-  last_updated: Last updated in
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  month_abbreviations:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
-  month_names:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
