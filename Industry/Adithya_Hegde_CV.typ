@@ -6,12 +6,12 @@
   name: "Adithya Hegde",
   title: "Adithya Hegde - CV",
   footer: context { [#emph[Adithya Hegde -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Oct 2026] ],
+  top-note: [ #emph[Last updated in Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
+  page-top-margin: 0.55in,
+  page-bottom-margin: 0.55in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
   page-show-footer: false,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
+  header-space-below-name: 0.4cm,
   header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-space-below-connections: 0.4cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
-  section-titles-space-below: 0.3cm,
+  section-titles-space-above: 0.3cm,
+  section-titles-space-below: 0.2cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 0.42cm,
+  sections-space-between-regular-entries: 0.25cm,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 20,
+    month: 11,
+    day: 21,
   ),
 )
 
@@ -129,15 +129,45 @@
 
 #regular-entry(
   [
+    #strong[Graduate Research], Systems for AI Lab, Georgia Institute of Technology
+
+  ],
+  [
+    Aug 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Built gRPC speech recognition workers for MetaServe supporting seven decoding configurations across FastConformer CTC, FastConformer RNN-T, and OpenAI Whisper, with one model checkpoint loaded per worker.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Graduate Teaching Assistant], Georgia Institute of Technology
+
+  ],
+  [
+    Aug 2026 – present
+
+  ],
+  main-column-second-row: [
+    - TA for CS 6200, Graduate Introduction to Operating Systems.
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Software Engineer II], JPMorgan Chase & Co.
 
   ],
   [
-    Jan 2025 – Jul 2026
+    Jan 2025 – July 2026
 
   ],
   main-column-second-row: [
-    - Designed and delivered a new distributed data processing platform using PySpark and Java, replacing legacy systems with full ownership of architecture, implementation, and production rollout.
+    - Designed and deployed a distributed PySpark and Java platform to replace legacy data processing systems.
 
     - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80\%.
 
@@ -156,11 +186,11 @@
 
   ],
   [
-    Jul 2023 – Dec 2024
+    Jan 2023 – Dec 2024
 
   ],
   main-column-second-row: [
-    - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60\% and stabilizing execution latency.
+    - Cut peak memory allocation by 60\% and stabilized latency for a Polars transformation on AWS Lambda using lazy evaluation and explicit object lifecycle control.
 
     - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -177,13 +207,13 @@
 
   ],
   [
-    Fall 2026
+    Sept 2026 – Nov 2026
 
   ],
   main-column-second-row: [
-    - Co-developing an end-to-end XDBC data transfer system in Go, including client\/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
+    - Developed an end-to-end bulk data transfer system in Go, including client\/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL Foreign Data Wrapper integration.
 
-    - Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
+    - Reproduced XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
 
   ],
 )
@@ -211,8 +241,8 @@
 
 == Skills
 
-#strong[Languages:] Python, Java, Go, SQL; Familiarity with CPP, Rust
+#strong[Languages:] Python, Java, Go, C++, SQL, Rust
 
-#strong[Data Systems:] Apache Spark, Databricks, PostgreSQL, Airflow, Pytorch
+#strong[Data Systems:] Apache Spark, PostgreSQL, Airflow, PyTorch, Neo4J
 
-#strong[Infrastructure:] Kubernetes, AWS, Linux
+#strong[Infrastructure:] Kubernetes, AWS, Linux, Docker, CI\/CD

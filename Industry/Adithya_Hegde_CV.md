@@ -19,11 +19,27 @@ Jun 2023
 
 
 # Experience
+## **Graduate Research**, Systems for AI Lab, Georgia Institute of Technology
+
+Aug 2026 – present
+
+- Built gRPC speech recognition workers for MetaServe supporting seven decoding configurations across FastConformer CTC, FastConformer RNN-T, and OpenAI Whisper, with one model checkpoint loaded per worker.
+
+
+
+## **Graduate Teaching Assistant**, Georgia Institute of Technology
+
+Aug 2026 – present
+
+- TA for CS 6200, Graduate Introduction to Operating Systems.
+
+
+
 ## **Software Engineer II**, JPMorgan Chase & Co.
 
-Jan 2025 – Jul 2026
+Jan 2025 – July 2026
 
-- Designed and delivered a new distributed data processing platform using PySpark and Java, replacing legacy systems with full ownership of architecture, implementation, and production rollout.
+- Designed and deployed a distributed PySpark and Java platform to replace legacy data processing systems.
 
 - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
 
@@ -37,9 +53,9 @@ Jan 2025 – Jul 2026
 
 ## **Software Engineer I**, JPMorgan Chase & Co.
 
-Jul 2023 – Dec 2024
+Jan 2023 – Dec 2024
 
-- Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60% and stabilizing execution latency.
+- Cut peak memory allocation by 60% and stabilized latency for a Polars transformation on AWS Lambda using lazy evaluation and explicit object lifecycle control.
 
 - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
 
@@ -50,11 +66,11 @@ Jul 2023 – Dec 2024
 # Projects
 ## **[XDBC: Cross-DBMS Data Transfer](https://doi.org/10.1145/3725294) | [GitHub](https://github.com/TheMonocledHamster/xdbc-replication) | Go, PostgreSQL**
 
-Fall 2026
+Sept 2026 – Nov 2026
 
-- Co-developing an end-to-end XDBC data transfer system in Go, including client/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
+- Developed an end-to-end bulk data transfer system in Go, including client/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL Foreign Data Wrapper integration.
 
-- Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
+- Reproduced XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
 
 
 
@@ -72,8 +88,8 @@ Proposed a [Deep RL framework](https://github.com/TheMonocledHamster/Counsel) fo
 
 
 # Skills
-**Languages:** Python, Java, Go, SQL; Familiarity with CPP, Rust
+**Languages:** Python, Java, Go, C++, SQL, Rust
 
-**Data Systems:** Apache Spark, Databricks, PostgreSQL, Airflow, Pytorch
+**Data Systems:** Apache Spark, PostgreSQL, Airflow, PyTorch, Neo4J
 
-**Infrastructure:** Kubernetes, AWS, Linux
+**Infrastructure:** Kubernetes, AWS, Linux, Docker, CI/CD

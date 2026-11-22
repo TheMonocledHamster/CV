@@ -19,37 +19,43 @@ cv:
         degree: BE
         date: Jun 2023
     experience:
+      - company: Systems for AI Lab, Georgia Institute of Technology
+        position: Graduate Research
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - Built gRPC speech recognition workers for MetaServe supporting seven decoding configurations across FastConformer CTC, FastConformer RNN-T, and OpenAI Whisper, with one model checkpoint loaded per worker.
+      - company: Georgia Institute of Technology
+        position: Graduate Teaching Assistant
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - TA for CS 6200, Graduate Introduction to Operating Systems.
       - company: JPMorgan Chase & Co.
         position: Software Engineer II
         start_date: 2025-01
         end_date: 2026-07
         highlights:
-          - Designed and delivered a new distributed data processing platform using PySpark and Java, replacing legacy systems with full ownership of architecture, implementation, and production rollout.
+          - Designed and deployed a distributed PySpark and Java platform to replace legacy data processing systems.
           - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
           - Reduced runtime of a ~60-operation Spark DAG processing up to 10M records from ~10 minutes to ~1.5 minutes (85%) through logical-plan optimization and data-dependent DAG construction.
           - Tuned Spark workload partitioning and task parallelism to reduce shuffle overhead, cutting cluster compute costs by ~40% while maintaining execution performance.
           - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65% to 98% and reducing dashboard refresh latency from ~5 minutes to ~10 seconds.
       - company: JPMorgan Chase & Co.
         position: Software Engineer I
-        start_date: 2023-07
+        start_date: 2023-01
         end_date: 2024-12
         highlights:
-          - Profiled memory growth of a Polars-based transformation running in AWS Lambda's constrained runtime; introduced lazy evaluation and explicit object lifecycle control, reducing peak memory allocation by 60% and stabilizing execution latency.
+          - Cut peak memory allocation by 60% and stabilized latency for a Polars transformation on AWS Lambda using lazy evaluation and explicit object lifecycle control.
           - Brought up a multi-node ingestion system on Kubernetes (EKS + NiFi), implemented Airflow orchestration for distributed workflows, and operated cross-service data movement pipelines in production.
           - Accelerated promotion to Software Engineer II
-      # - company: JPMorgan Chase & Co.
-      #   position: Software Engineer Intern
-      #   start_date: 2023-01
-      #   end_date: 2023-06
-      #   highlights:
-      #     - Implemented a schema-driven validation tool generating record-level checks from external specifications, eliminating iterative reprocessing and reducing failure diagnosis time by 95%.
-
     projects:
       - name: "[XDBC: Cross-DBMS Data Transfer](https://doi.org/10.1145/3725294) | [GitHub](https://github.com/TheMonocledHamster/xdbc-replication) | Go, PostgreSQL"
-        date: Fall 2026
+        start_date: 2026-09
+        end_date: 2026-11
         highlights:
-          - Co-developing an end-to-end XDBC data transfer system in Go, including client/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL integration.
-          - Reproducing XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
+          - Developed an end-to-end bulk data transfer system in Go, including client/server pipelines, wire-protocol messaging, buffer management, and PostgreSQL Foreign Data Wrapper integration.
+          - Reproduced XDBC data transfer benchmarks against PostgreSQL FDW baselines to evaluate throughput and transfer overhead.
 
     publications:
       - title: COUNSEL - Cloud Resource Configuration Management using Deep RL
@@ -64,13 +70,23 @@ cv:
 
     skills:
       - label: Languages
-        details: Python, Java, Go, SQL; Familiarity with CPP, Rust
+        details: Python, Java, Go, C++, SQL, Rust
       - label: Data Systems
-        details: Apache Spark, Databricks, PostgreSQL, Airflow, Pytorch
+        details: Apache Spark, PostgreSQL, Airflow, PyTorch, Neo4J
       - label: Infrastructure
-        details: Kubernetes, AWS, Linux
+        details: Kubernetes, AWS, Linux, Docker, CI/CD
 
 design:
   theme: engineeringresumes
   page:
     show_top_note: false
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+  header:
+    space_below_name: 0.4cm
+    space_below_connections: 0.4cm
+  section_titles:
+    space_above: 0.3cm
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 0.25cm
