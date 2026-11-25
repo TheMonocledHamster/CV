@@ -35,7 +35,7 @@
   typography-font-size-body: 10pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
+  typography-font-size-connections: 8.25pt,
   typography-font-size-section-titles: 1.2em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
@@ -56,7 +56,7 @@
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
   header-connections-separator: "|",
-  header-connections-space-between-connections: 0.5cm,
+  header-connections-space-between-connections: 0.12cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.3cm,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 21,
+    day: 25,
   ),
 )
 
@@ -90,8 +90,8 @@
 
 #connections(
   [#link("mailto:adithyah07@gmail.com", icon: false, if-underline: false, if-color: false)[adithyah07\@gmail.com]],
-  [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
   [#link("tel:+1-470-836-3474", icon: false, if-underline: false, if-color: false)[(470) 836-3474]],
+  [#link("https://sites.gatech.edu/ahegde", icon: false, if-underline: false, if-color: false)[sites.gatech.edu\/ahegde]],
   [#link("https://linkedin.com/in/adithya-hegde", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/adithya-hegde]],
   [#link("https://github.com/TheMonocledHamster", icon: false, if-underline: false, if-color: false)[github.com\/TheMonocledHamster]],
 )
