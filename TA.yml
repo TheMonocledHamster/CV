@@ -38,9 +38,10 @@ cv:
         start_date: 2025-01
         end_date: 2026-07
         highlights:
-          - Designed and delivered a distributed PySpark/Java data-processing platform, leading architecture, implementation, and production rollout.
+          - Designed and delivered a distributed PySpark/Java data-processing platform that replaced a legacy stack that used a proprietary DSL on Hadoop alongside Informatica ETL, leading architecture, implementation, and production rollout.
           - Built and launched a distributed PySpark/Java processing platform; removed Databricks-DynamoDB state synchronization, improving throughput by up to 80%.
-          - Optimized Spark execution (up to 10M records) to reduce runtime by 85%; improved Databricks data skipping from 65% to 98% and cut cluster compute costs by ~40%.
+          - Built an application-layer generator that automatically produced workload-optimized DAGs for Spark, reducing runtime by 85% on a sparse-correction workload of up to 10M records.
+          - Improved Databricks data skipping from 65% to 98% and cut cluster compute costs by ~40%.
       - company: JPMorgan Chase & Co.
         position: Software Engineer I
         start_date: 2023-07

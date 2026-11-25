@@ -36,9 +36,9 @@ cv:
         start_date: 2025-01
         end_date: 2026-07
         highlights:
-          - Designed and deployed a distributed PySpark and Java platform to replace legacy data processing systems.
+          - Designed and deployed a distributed PySpark and Java platform to replace a legacy stack that used a proprietary DSL on Hadoop alongside Informatica ETL.
           - Redesigned platform execution to eliminate Databricks-DynamoDB state synchronization, removing a fragile distributed dependency and improving throughput by up to 80%.
-          - Reduced runtime of a ~60-operation Spark DAG processing up to 10M records from ~10 minutes to ~1.5 minutes (85%) through logical-plan optimization and data-dependent DAG construction.
+          - Built an application-layer generator that automatically produced workload-optimized DAGs for Spark to execute. On a sparse-correction workload with a ~60-operation DAG and up to 10 million records, it cut runtime by 85%, from about 10 minutes to 1.5 minutes.
           - Tuned Spark workload partitioning and task parallelism to reduce shuffle overhead, cutting cluster compute costs by ~40% while maintaining execution performance.
           - Optimized table partitioning using Spark execution plans and Databricks query profiles, increasing data skipping from 65% to 98% and reducing dashboard refresh latency from ~5 minutes to ~10 seconds.
       - company: JPMorgan Chase & Co.
