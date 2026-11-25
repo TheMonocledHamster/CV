@@ -137,7 +137,7 @@
 
   ],
   main-column-second-row: [
-    - Built gRPC speech recognition workers for MetaServe supporting seven decoding configurations across FastConformer CTC, FastConformer RNN-T, and OpenAI Whisper, with one model checkpoint loaded per worker.
+    - Built gRPC speech recognition workers for MetaServe supporting decoding configurations across FastConformer CTC, FastConformer RNN-T, and OpenAI Whisper.
 
   ],
 )
